@@ -1,0 +1,52 @@
+{
+    "PROJECT_LIST": [
+        {
+            "id": 1,
+            "project": "Camille Sulpice thérapie brève",
+            "description": "Développement d’un site internet pour une activité de thérapie, selon une maquette fournie",
+            "stack": [
+                "JS",
+                "React",
+                "Sass"
+            ],
+            "year": "2023",
+            "website": "https://belin27000.github.io/camille_sulpice_tb/"
+        },
+        {
+            "id": 2,
+            "project": "Attribut Conseil - Bilan de compétences",
+            "description": "Refonte d’un site internet pour un cabinet de gestion de carrière intervenant sur des bilans de compétences, VAE et outplacement.",
+            "stack": [
+                "JS",
+                "React",
+                "Css"
+            ],
+            "year": "2023",
+            "website": "https://belin27000.github.io/attribut_conseil/"
+        }
+    ],
+    "DEV": [
+        {
+            "aboutMe": "Développeur front-end de formation, devenu full stack par passion!",
+            "devStack": [
+                {
+                    "HTML5": "HTML5",
+                    "JS": "Javascript",
+                    "React": "React",
+                    "TS": "TypeScript",
+                    "Redux": "Redux toolkit",
+                    "Node": "Node.Js",
+                    "Express": "Express.js",
+                    "Mongo": "MongoDB",
+                    "EsLint": "EsLint",
+                    "Jest": "Jest",
+                    "CSS": "CSS3",
+                    "Tailwind": "Tailwind",
+                    "Sass": "Sass",
+                    "Bootstrap": "Bootstrap",
+                    "Figma": "Figma"
+                }
+            ]
+        }
+    ]
+}

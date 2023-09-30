@@ -4,6 +4,7 @@ import Heading from './components/Heading'
 import data from './assets/data/data.json'
 import About from './components/About';
 import Project from './components/Project';
+import DevStack from './components/DevStack';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Heading title={'Conseil & Tech'} />
         <About data={devData} />
         <Project projectData={projectData} />
+        <DevStack data={devData} />
         <Footer />
       </div>
     </>

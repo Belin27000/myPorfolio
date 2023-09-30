@@ -1,4 +1,3 @@
-import { log } from 'console';
 import { FaGlobe, FaGithub } from 'react-icons/fa'
 type ProjectDetail = {
     id: number,
@@ -16,7 +15,6 @@ type ProjectProps = {
     projectData: ProjectDetail[];
 };
 const Project = ({ projectData }: ProjectProps) => {
-    console.log(projectData[2].website);
 
 
     return (

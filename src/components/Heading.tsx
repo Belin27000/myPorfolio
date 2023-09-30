@@ -33,10 +33,11 @@ const Heading = ({ title = "Incroyable" }: HeadingProps) => {
     return (
         <header className="bg-white dark:bg-black text-white w-full flex justify-between p-2">
             <h1 className="text-black dark:text-white">{title}</h1>
-            <button className='bg-black dark:bg-sky-500 dark:text-black px-2 rounded-3xl' onClick={handleThemeSwitch}>
+            <button className='bg-black dark:bg-sky-500 dark:text-black px-2 rounded-3xl' onClick={handleThemeSwitch} aria-label="dark mode">
                 {theme === "dark" ? <BsSunFill /> : <BsFillMoonFill />}</button>
         </header>
     );
 };
 
 export default Heading;
+

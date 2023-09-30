@@ -64,6 +64,25 @@
             "website": "https://belin27000.github.io/attribut_conseil/",
             "logo": "src/assets/images/logo_Attribut.png",
             "github": "https://github.com/Belin27000/myPorfolio.git"
+        },
+        {
+            "id": 5,
+            "project": "Mon voisin PRO",
+            "description": "Création d’un site internet pour une association d’insertion professionnelle, permettant la visibilité et la mise en relation des auto-entrepreneurs et TPE avec les particuliers. ",
+            "more": "MON VOISIN PRO est un site dédié à la mise en relation de clients avec les auto-entrepreneurs et les TPE au niveau local.L'objectif est d'aider ces professionnels à obtenir de nouveaux clients et à développer leurs activités, tout en offrant aux clients une visibilité sur les services proposés dans leur environnement proche et en les encourageant à consommer localement.",
+            "stack": [
+                "Javascript",
+                "React",
+                "tailwind",
+                "nodejs",
+                "express",
+                "mongoDB",
+                "typescript"
+            ],
+            "year": 2023,
+            "website": "",
+            "logo": "src/assets/images/PRO.png",
+            "github": "https://github.com/Belin27000/myPorfolio.git"
         }
     ],
     "DEV": [

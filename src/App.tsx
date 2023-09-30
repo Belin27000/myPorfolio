@@ -9,13 +9,15 @@ import Project from './components/Project';
 function App() {
   const devData = data.DEV
   const projectData = data.PROJECT_LIST
+  console.log(projectData);
+
 
   return (
     <>
       <div className=' bg-white dark:bg-black text-center flex flex-col h-full justify-between'>
         <Heading title={'Conseil & Tech'} />
         <About data={devData} />
-        <Project data={projectData} />
+        <Project projectData={projectData} />
         <Footer />
       </div>
     </>

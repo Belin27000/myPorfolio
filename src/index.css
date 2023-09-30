@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 html,
-body,
 #root {
-    @apply h-full;
+    /* @apply h-full; */
+    display: flex;
+}
+
+:root {
+    --blueSite: #0DA6E9;
+    --orangeSite: #FBAF00;
+    --greenSite: #6EEB83;
+    --greySite: #625F63;
+    --blackSite: #1B1B1E;
 }

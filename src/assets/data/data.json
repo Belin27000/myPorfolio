@@ -4,25 +4,66 @@
             "id": 1,
             "project": "Camille Sulpice thérapie brève",
             "description": "Développement d’un site internet pour une activité de thérapie, selon une maquette fournie",
+            "more": "La thérapie brève stratégique et systémique est une thérapie dynamique et participative, vous n’êtes pas passif mais actif dans le travail thérapeutique et dans le changement.",
             "stack": [
-                "JS",
+                "Javascript",
                 "React",
+                "Css",
                 "Sass"
             ],
-            "year": "2023",
-            "website": "https://belin27000.github.io/camille_sulpice_tb/"
+            "year": 2023,
+            "website": "https://belin27000.github.io/camille_sulpice_tb/",
+            "logo": "src/assets/images/logo_CS.png",
+            "github": "https://github.com/Belin27000/camille_sulpice_tb.git"
         },
         {
             "id": 2,
             "project": "Attribut Conseil - Bilan de compétences",
             "description": "Refonte d’un site internet pour un cabinet de gestion de carrière intervenant sur des bilans de compétences, VAE et outplacement.",
+            "more": "Cabinet d'accompagnement",
             "stack": [
-                "JS",
+                "Javascript",
                 "React",
-                "Css"
+                "css",
+                "Sass"
             ],
-            "year": "2023",
-            "website": "https://belin27000.github.io/attribut_conseil/"
+            "year": 2023,
+            "website": "https://belin27000.github.io/attribut_conseil/",
+            "logo": "src/assets/images/logo_Attribut.png",
+            "github": "https://github.com/Belin27000/attribut_conseil.git"
+        },
+        {
+            "id": 3,
+            "project": "RemedeAgency",
+            "description": "Mise en place de Redux pour la gestion des modifications du nom d'utilisateur",
+            "more": "Projet de formation",
+            "stack": [
+                "Javascript",
+                "React",
+                "redux",
+                "mongodb",
+                "sass"
+            ],
+            "year": 2023,
+            "website": "",
+            "logo": "src/assets/images/argentBankLogo.png",
+            "github": "https://github.com/Belin27000/bank_remedeAgency.git"
+        },
+        {
+            "id": 4,
+            "project": "Portfolio - Conseil & Tech",
+            "description": "Creation du portfolio de conseil and tech",
+            "more": "Ce portfolio a pour but d'apporter une vision sur les rendus possible en utilisant les technologies actuel",
+            "stack": [
+                "Javascript",
+                "React",
+                "tailwind",
+                "typescript"
+            ],
+            "year": 2023,
+            "website": "https://belin27000.github.io/attribut_conseil/",
+            "logo": "src/assets/images/logo_Attribut.png",
+            "github": "https://github.com/Belin27000/myPorfolio.git"
         }
     ],
     "DEV": [

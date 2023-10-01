@@ -18,26 +18,27 @@ const Project = ({ projectData }: ProjectProps) => {
 
 
     return (
-        <section className="grid gap-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <section className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5">
             {
                 projectData.map((project, index) => {
                     const gotWebsite = project.website
 
                     return (
-                        <div className="[perspective:1000px] group">
+                        <div className="[perspective:1000px] group" key={index}>
                             <article key={index} className="relative transition-all duration-700 [transform-style:preserve-3d] rotateY(180deg) group-hover:[transform:rotateY(180deg)] text-black h-full bg-white flex flex-col rounded-3xl items-center shadow-3xl justify-around" >
                                 <h2 className="m-5 font-bold">{project.project}</h2>
-                                <div className="w-full bg-white flex justify-center">
-                                    <img width="100" height="100" src={project.logo} alt={"logo projet " + `${project.project}`} className="w-1/2 bg-white rounded " />
+                                <div className="w-full bg-white flex h-36 justify-center">
+                                    <img width="100" height="100" src={project.logo} alt={"logo projet " + `${project.project}`} className="w-1/2 bg-white rounded object-contain " />
                                 </div>
                                 <div>
                                     <p className="text-xs m-5">{project.description}</p>
-                                    <div className=" flex justify-center  w-auto h-auto">
+                                    <p className="text-xs m-5">Stack utilisé</p>
+                                    <div className=" flex justify-center flex-wrap w-auto h-auto">
 
                                         {
                                             project.stack.map((item, index) => {
                                                 return (
-                                                    <img width="100" height="100" className="object-cover w-6 h-6 mr-5 mb-5 md:w-8 md:h-8" key={index} src={`src/assets/icons/${item}.png`} alt={`${item} icon`} />
+                                                    <img width="100" height="100" className="object-cover w-6 h-6 mx-2 mb-5 md:w-8 md:h-8" key={index} src={`src/assets/icons/${item}.png`} alt={`${item} icon`} />
                                                 )
                                             })
                                         }

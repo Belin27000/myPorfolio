@@ -5,6 +5,8 @@ import data from './assets/data/data.json'
 import About from './components/About';
 import Project from './components/Project';
 import DevStack from './components/DevStack';
+import ScrollToTop from './components/ScrollButton/ScrollToTop';
+// import ScrollToTop from './components/ScrollButton/ScrollToTop'
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <About data={devData} />
         <Project projectData={projectData} />
         <DevStack data={devData} />
+        <ScrollToTop />
         <Footer />
       </div>
     </>

@@ -21,6 +21,7 @@ export default {
     boxShadow: {
       '3xl': '0 0px 60px -15px rgba(0, 0, 0, 0.5)',
     }
+
   },
   plugins: [],
 

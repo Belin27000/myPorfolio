@@ -33,7 +33,7 @@ const Heading = ({ title = "Incroyable" }: HeadingProps) => {
         setTheme(theme === "dark" ? "light" : "dark")
     }
     return (
-        <header className="bg-white dark:bg-black text-white items-center flex justify-between p-2">
+        <header className="bg-white dark:bg-black text-white items-center flex justify-between p-2 ">
             {/* <h1 className="text-black dark:text-white flex items-center">{title}</h1> */}
             <div className=" object-contain flex justify-center w-1/3">
                 {/* <img width="100" height="100" src={logoCaT} alt={"logo conseil and tech"} className="invert  dark:invert-0  w-1/2 bg-white rounded " /> */}

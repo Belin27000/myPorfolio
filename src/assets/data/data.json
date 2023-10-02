@@ -67,6 +67,21 @@
         },
         {
             "id": 5,
+            "project": "goFullStack",
+            "description": "Projet de formation full stack. Ce projet permet de mettre en pratique et valider les compétences au dos de cette carte. ",
+            "more": "Le repository en lien montre la création d'un server web avec le framework Express, la création d'une API REST avec Node, Express et MongoDB ainsi que la mise en place d'un système d'authentification et la gestion des fichiers utilisateur sur un application Express.",
+            "stack": [
+                "nodejs",
+                "express",
+                "mongoDB"
+            ],
+            "year": 2023,
+            "website": "",
+            "logo": "src/assets/images/logo_Yann.png",
+            "github": "https://github.com/Belin27000/goToFullStack"
+        },
+        {
+            "id": 6,
             "project": "Mon voisin PRO",
             "description": "Création d’un site internet pour une association d’insertion professionnelle, permettant la visibilité et la mise en relation des auto-entrepreneurs et TPE avec les particuliers. ",
             "more": "MON VOISIN PRO est un site dédié à la mise en relation de clients avec les auto-entrepreneurs et les TPE au niveau local.L'objectif est d'aider ces professionnels à obtenir de nouveaux clients et à développer leurs activités, tout en offrant aux clients une visibilité sur les services proposés dans leur environnement proche et en les encourageant à consommer localement.",
@@ -87,7 +102,7 @@
     ],
     "DEV": [
         {
-            "aboutMe": "Développeur front-end de formation, devenu full stack par passion!",
+            "aboutMe": "Développeur front-end de formation, full stack par passion!",
             "devStack": [
                 {
                     "HTML": "HTML5",

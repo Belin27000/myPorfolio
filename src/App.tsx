@@ -8,7 +8,6 @@ import DevStack from './components/DevStack';
 import ScrollToTop from './components/ScrollButton/ScrollToTop';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
-// import ScrollToTop from './components/ScrollButton/ScrollToTop'
 
 
 function App() {

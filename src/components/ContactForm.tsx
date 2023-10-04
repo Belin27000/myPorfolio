@@ -94,7 +94,7 @@ const ContactForm = () => {
         <div className=' bg-white mx-5 rounded-3xl drop-shadow-2xl'>
             <h2 className='contact-title my-5 text-2xl font-bold'>Contact</h2>
             <p className="my-4" >Vous pouvez me contacter au :</p>
-            <a className='underline text-blueLink font-bold' href='tel:0632138174'>06.32.13.81.74</a>
+            <a className='underline text-blueLink text-2xl font-bold' href='tel:0632138174'>06.32.13.81.74</a>
             <p className="my-4">Ou bien m'envoyer un mail via le formulaire de contact ci-dessous : </p>
             <div className='form-container rounded-3xl '>
                 {!formValid ? (

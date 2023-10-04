@@ -14,7 +14,7 @@ export default {
       'black': '#000000',
       'sky-500': '#0ea5e9',
       'blueSite': '#0DA6E9',
-      'blueLink': '#3b82f6',
+      'blueLink': '#0E5F86',
       'orangeSite': '#FBAF00',
       'greenSite': '#6EEB83',
       'greySite': '#625F63',

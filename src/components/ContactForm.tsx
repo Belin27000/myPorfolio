@@ -130,7 +130,7 @@ const ContactForm = () => {
 
                         <button className="my-5 bg-blueSite px-16 py-0.5 rounded-xl">Envoyer</button>
                     </form>
-                ) : (<div className='contact-form-sent'>
+                ) : (<div className='mb-5'>
                     <p>Le formulaire a bien été envoyé</p>
                 </div>
                 )}

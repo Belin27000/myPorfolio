@@ -91,14 +91,14 @@ const ContactForm = () => {
     }
 
     return (
-        <div className='bg-white mx-5 rounded-3xl drop-shadow-2xl'>
+        <div className=' bg-white mx-5 rounded-3xl drop-shadow-2xl'>
             <h2 className='contact-title my-5 text-2xl font-bold'>Contact</h2>
             <p className="my-4" >Vous pouvez me contacter au :</p>
             <a className='underline text-blueLink font-bold' href='tel:0632138174'>06.32.13.81.74</a>
             <p className="my-4">Ou bien m'envoyer un mail via le formulaire de contact ci-dessous : </p>
             <div className='form-container rounded-3xl '>
                 {!formValid ? (
-                    <form ref={formRef} className=" shadow-inner rounded-b-3xl drop-shadow" onSubmit={(e) => handleSubmit(e)}>
+                    <form ref={formRef} className=" shadow-inner rounded-b-3xl drop-shadow" onSubmit={(e) => handleSubmit(e)} id="contact-form">
                         <div className='flex w-full justify-between px-8 my-8 '>
                             <div className="w-1/2 text-start flex flex-col">
                                 <label htmlFor="lastName">Nom</label>

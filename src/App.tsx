@@ -6,6 +6,8 @@ import About from './components/About';
 import Project from './components/Project';
 import DevStack from './components/DevStack';
 import ScrollToTop from './components/ScrollButton/ScrollToTop';
+import AboutMe from './components/AboutMe';
+import ContactForm from './components/ContactForm';
 // import ScrollToTop from './components/ScrollButton/ScrollToTop'
 
 
@@ -18,10 +20,12 @@ function App() {
   return (
     <>
       <div className=' bg-white dark:bg-black text-center flex flex-col h-full justify-between'>
-        <Heading title={'Conseil & Tech'} />
+        <Heading />
         <About data={devData} />
         <Project projectData={projectData} />
+        <AboutMe />
         <DevStack data={devData} />
+        <ContactForm />
         <ScrollToTop />
         <Footer />
       </div>

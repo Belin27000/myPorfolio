@@ -1,14 +1,11 @@
 import { useState, useEffect } from "react";
 import { BsSunFill, BsFillMoonFill } from "react-icons/bs"
 import logoYann from '../assets/images/Logo_Yann.png'
-import logoCaT from '../assets/images/Logo_CaT.png'
-
-type HeadingProps = {
-    title?: string,
-}
 
 
-const Heading = ({ title = "Incroyable" }: HeadingProps) => {
+
+
+const Heading = () => {
     const [isToggled, setIsToggled] = useState(false)
     const [theme, setTheme] = useState("")
 

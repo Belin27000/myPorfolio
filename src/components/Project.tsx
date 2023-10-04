@@ -35,13 +35,13 @@ const Project = ({ projectData }: ProjectProps) => {
                                     </div>
                                     <div>
                                         <p className="text-xs m-5">{project.description}</p>
-                                        <p className="text-xs m-5">Stack utilisée</p>
+                                        <p className="text-xs font-bold m-5">Technologies utilisées pour ce projet</p>
                                         <div className=" flex justify-center flex-wrap w-auto h-auto">
 
                                             {
                                                 project.stack.map((item, index) => {
                                                     return (
-                                                        <img width="100" height="100" className="object-cover w-6 h-6 mx-2 mb-5 md:w-8 md:h-8" key={index} src={`src/assets/icons/${item}.png`} alt={`${item} icon`} />
+                                                        <img width="100" height="100" className="object-cover w-6 h-6 mx-2 mb-5 md:w-8 md:h-8" key={index} src={`./assets/icons/${item}.png`} alt={`${item} icon`} />
                                                     )
                                                 })
                                             }

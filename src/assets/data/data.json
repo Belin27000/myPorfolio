@@ -6,30 +6,30 @@
             "description": "Développement d’un site internet pour une activité de thérapie, selon une maquette fournie",
             "more": "La thérapie brève stratégique et systémique est une thérapie dynamique et participative, vous n’êtes pas passif mais actif dans le travail thérapeutique et dans le changement.",
             "stack": [
-                "Javascript",
-                "React",
-                "Css",
-                "Sass"
+                "javascript",
+                "react",
+                "css",
+                "sass"
             ],
             "year": 2023,
             "website": "https://camille-sulpice.fr/",
-            "logo": "src/assets/images/logo_CS.png",
+            "logo": "./assets/images/logo_CS.png",
             "github": "https://github.com/Belin27000/camille_sulpice_tb.git"
         },
         {
             "id": 2,
-            "project": "Attribut Conseil - Bilan de compétences",
+            "project": "Attribut Conseils - Bilan de compétences",
             "description": "Refonte d’un site internet pour un cabinet de gestion de carrière intervenant sur des bilans de compétences, VAE et outplacement.",
-            "more": "Cabinet d'accompagnement",
+            "more": "Cabinet de gestion de carrières positionné sur le marché depuis plus de 15 ans",
             "stack": [
-                "Javascript",
-                "React",
+                "javascript",
+                "react",
                 "css",
-                "Sass"
+                "sass"
             ],
             "year": 2023,
-            "website": "https://belin27000.github.io/attribut_conseil/",
-            "logo": "src/assets/images/logo_Attribut.png",
+            "website": "",
+            "logo": "./assets/images/logo_Attribut.png",
             "github": "https://github.com/Belin27000/attribut_conseil.git"
         },
         {
@@ -38,31 +38,31 @@
             "description": "Mise en place de Redux pour la gestion des modifications du nom d'utilisateur",
             "more": "Projet de formation",
             "stack": [
-                "Javascript",
-                "React",
+                "javascript",
+                "react",
                 "redux",
                 "mongodb",
                 "sass"
             ],
             "year": 2023,
             "website": "",
-            "logo": "src/assets/images/argentBankLogo.png",
+            "logo": "./assets/images/argentBankLogo.png",
             "github": "https://github.com/Belin27000/bank_remedeAgency.git"
         },
         {
             "id": 4,
             "project": "Portfolio - Conseil & Tech",
-            "description": "Creation du portfolio de conseil and tech",
-            "more": "Ce portfolio a pour but d'apporter une vision sur les rendus possible en utilisant les technologies actuel",
+            "description": "Création du portfolio de conseil and tech",
+            "more": "Ce portfolio a pour but d'apporter une vision sur les rendus possible en utilisant les technologies actuelles",
             "stack": [
-                "Javascript",
-                "React",
+                "javascript",
+                "react",
                 "tailwind",
                 "typescript"
             ],
             "year": 2023,
             "website": "https://belin27000.github.io/attribut_conseil/",
-            "logo": "src/assets/images/logo_Yann.png",
+            "logo": "./assets/images/logo_Yann.png",
             "github": "https://github.com/Belin27000/myPorfolio.git"
         },
         {
@@ -73,53 +73,53 @@
             "stack": [
                 "nodejs",
                 "express",
-                "mongoDB"
+                "mongodb"
             ],
             "year": 2023,
             "website": "",
-            "logo": "src/assets/images/logo_Yann.png",
+            "logo": "./assets/images/logo_Yann.png",
             "github": "https://github.com/Belin27000/goToFullStack"
         },
         {
             "id": 6,
             "project": "Mon voisin PRO",
             "description": "Création d’un site internet pour une association d’insertion professionnelle, permettant la visibilité et la mise en relation des auto-entrepreneurs et TPE avec les particuliers. ",
-            "more": "MON VOISIN PRO est un site dédié à la mise en relation de clients avec les auto-entrepreneurs et les TPE au niveau local.L'objectif est d'aider ces professionnels à obtenir de nouveaux clients et à développer leurs activités, tout en offrant aux clients une visibilité sur les services proposés dans leur environnement proche et en les encourageant à consommer localement.",
+            "more": "MON VOISIN PRO est un site dédié à la mise en relation de clients avec les auto-entrepreneurs et les TPE au niveau local.L'objectif est d'aider ces professionnels à obtenir de nouveaux clients et à développer leurs activités, tout en offrant aux clients une visibilité sur les services proposés dans leur environnement proche en les encourageant à consommer localement.",
             "stack": [
-                "Javascript",
-                "React",
+                "javascript",
+                "react",
                 "tailwind",
                 "nodejs",
                 "express",
-                "mongoDB",
+                "mongodb",
                 "typescript"
             ],
             "year": 2023,
             "website": "",
-            "logo": "src/assets/images/PRO.png",
-            "github": "https://github.com/Belin27000/myPorfolio.git"
+            "logo": "./assets/images/PRO.png",
+            "github": "https://github.com/Belin27000?tab=repositories"
         }
     ],
     "DEV": [
         {
-            "aboutMe": "Développeur front-end de formation, full stack par passion!",
+            "aboutMe": "Développeur front-end de formation, full stack par passion !",
             "devStack": [
                 {
-                    "HTML": "HTML5",
-                    "Javascript": "Javascript",
-                    "React": "React",
-                    "Typescript": "TypeScript",
-                    "Redux": "Redux toolkit",
-                    "Nodejs": "Node.Js",
-                    "Express": "Express.js",
-                    "Mongodb": "MongoDB",
-                    "EsLint": "EsLint",
-                    "Jest": "Jest",
-                    "CSS": "CSS3",
-                    "Tailwind": "Tailwind",
-                    "Sass": "Sass",
-                    "Bootstrap": "Bootstrap",
-                    "Figma": "Figma"
+                    "html": "HTML5",
+                    "javascript": "Javascript",
+                    "react": "React",
+                    "typescript": "TypeScript",
+                    "redux": "Redux toolkit",
+                    "nodejs": "Node.Js",
+                    "express": "Express.js",
+                    "mongodb": "MongoDB",
+                    "esLint": "EsLint",
+                    "jest": "Jest",
+                    "css": "CSS3",
+                    "tailwind": "Tailwind",
+                    "sass": "Sass",
+                    "bootstrap": "Bootstrap",
+                    "figma": "Figma"
                 }
             ]
         }

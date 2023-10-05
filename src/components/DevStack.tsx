@@ -28,6 +28,7 @@ type StackProps = {
 const DevStack = ({ data }: StackProps) => {
     const stacks = data[0].devStack[0]
 
+
     return (
         <div className="  mx-5 my-8  ">
             <article className="text-black bg-white flex flex-col rounded-3xl items-center shadow-3xl justify-around" >

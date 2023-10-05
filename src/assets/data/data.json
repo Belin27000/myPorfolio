@@ -8,8 +8,10 @@
             "stack": [
                 "javascript",
                 "react",
+                "git",
                 "css",
-                "sass"
+                "sass",
+                "github"
             ],
             "year": 2023,
             "website": "https://camille-sulpice.fr/",
@@ -25,7 +27,9 @@
                 "javascript",
                 "react",
                 "css",
-                "sass"
+                "sass",
+                "git",
+                "github"
             ],
             "year": 2023,
             "website": "",
@@ -40,8 +44,10 @@
             "stack": [
                 "javascript",
                 "react",
+                "github",
                 "redux",
                 "mongodb",
+                "git",
                 "sass"
             ],
             "year": 2023,
@@ -58,7 +64,9 @@
                 "javascript",
                 "react",
                 "tailwind",
-                "typescript"
+                "typescript",
+                "git",
+                "github"
             ],
             "year": 2023,
             "website": "https://conseilsandtechs.com/",
@@ -73,7 +81,9 @@
             "stack": [
                 "nodejs",
                 "express",
-                "mongodb"
+                "mongodb",
+                "git",
+                "github"
             ],
             "year": 2023,
             "website": "",
@@ -89,6 +99,8 @@
                 "javascript",
                 "react",
                 "tailwind",
+                "git",
+                "github",
                 "nodejs",
                 "express",
                 "mongodb",
@@ -109,6 +121,8 @@
                     "javascript": "Javascript",
                     "react": "React",
                     "typescript": "TypeScript",
+                    "git": "Git",
+                    "github": "Github",
                     "redux": "Redux toolkit",
                     "nodejs": "Node.Js",
                     "express": "Express.js",

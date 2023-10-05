@@ -21,9 +21,12 @@ export default {
       'blackSite': '#1B1B1E',
       'slate-300': '#cbd5e1'
     },
-    boxShadow: {
-      '3xl': '0 0px 60px -15px rgba(0, 0, 0, 0.5)',
-    }
+    extend: {
+      backgroundImage: {
+
+        'Event': "url('./assets/images/event/octoberRose.png')"
+      }
+    },
 
   },
   plugins: [],

@@ -128,7 +128,7 @@ const ContactForm = () => {
                             <textarea className='border border-blueSite pl-1.5 h-28' id="Message" name="Message" />
                         </div>
 
-                        <button className="my-5 bg-blueSite px-16 py-0.5 rounded-xl">Envoyer</button>
+                        <button className="hover:text-white my-5 bg-blueSite px-16 py-0.5 rounded-xl">Envoyer</button>
                     </form>
                 ) : (<div className='mb-5'>
                     <p>Le formulaire a bien été envoyé</p>

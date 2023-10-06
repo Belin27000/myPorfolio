@@ -1,0 +1,168 @@
+{
+    "PROJECT_LIST": [
+        {
+            "projectCardText": "Projects",
+            "whichTech": "Technologies used for this project",
+            "moreAboutCompany": "Learn more about the company",
+            "ProjectDetails": [
+                {
+                    "id": 1,
+                    "project": "Camille Sulpice brief therapy",
+                    "description": "Development of a website for a therapy activity, according to a model provided",
+                    "more": "Brief strategic and systemic therapy is a dynamic and participatory therapy, you are not passive but active in the therapeutic work and in change.",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "git",
+                        "css",
+                        "sass",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "https://camille-sulpice.fr/",
+                    "logo": "./assets/images/logo_CS.png",
+                    "github": "https://github.com/Belin27000/camille_sulpice_tb.git"
+                },
+                {
+                    "id": 2,
+                    "project": "Attribut Conseils - Skills assessments",
+                    "description": "Redesign of a website for a career management firm involved in skills assessments, VAE and outplacement.",
+                    "more": "Career management firm positioned on the market for over 15 years",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "css",
+                        "sass",
+                        "git",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/logo_Attribut.png",
+                    "github": "https://github.com/Belin27000/attribut_conseil.git"
+                },
+                {
+                    "id": 3,
+                    "project": "RemedeAgency",
+                    "description": "Setting up Redux to manage username changes",
+                    "more": "Training project",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "github",
+                        "redux",
+                        "mongodb",
+                        "git",
+                        "sass"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/argentBankLogo.png",
+                    "github": "https://github.com/Belin27000/bank_remedeAgency.git"
+                },
+                {
+                    "id": 4,
+                    "project": "Portfolio - Conseils & Techs",
+                    "description": "Creation of 'Advice and Techs's portfolio",
+                    "more": "This portfolio aims to provide a vision of the renderings possible using current technologies",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "tailwind",
+                        "typescript",
+                        "git",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "https://conseilsandtechs.com/",
+                    "logo": "./assets/images/logo_Yann.png",
+                    "github": "https://github.com/Belin27000/myPorfolio.git"
+                },
+                {
+                    "id": 5,
+                    "project": "goFullStack",
+                    "description": "Full stack training project. This project allows you to put into practice and validate the skills on the back of this card.",
+                    "more": "The linked repository shows the creation of a web server with the Express framework, the creation of a REST API with Node, Express and MongoDB as well as the implementation of an authentication system and the management of user files on an Express application.",
+                    "stack": [
+                        "nodejs",
+                        "express",
+                        "mongodb",
+                        "git",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/logo_Yann.png",
+                    "github": "https://github.com/Belin27000/goToFullStack"
+                },
+                {
+                    "id": 6,
+                    "project": "Mon voisin PRO",
+                    "description": "Creation of a website for a professional integration association, allowing visibility and connecting self-employed people and small businesses with individuals.",
+                    "more": "MON VOISIN PRO is a site dedicated to connecting customers with self-employed people and small businesses at the local level. The objective is to help these professionals obtain new customers and develop their activities, while offering customers visibility on the services offered in their immediate environment by encouraging them to consume locally.",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "tailwind",
+                        "git",
+                        "github",
+                        "nodejs",
+                        "express",
+                        "mongodb",
+                        "typescript"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/PRO.png",
+                    "github": "https://github.com/Belin27000?tab=repositories"
+                }
+            ]
+        }
+    ],
+    "DEV": [
+        {
+            "aboutMe": "Trained to become a front-end developer, became full stack by passion",
+            "aboutMeP1": "Creating a website or an application is simple, creating them in an optimized, efficient and user experience-oriented way requires analysis and more in-depth work.",
+            "aboutMeP2": "As a conscientious and diligent developer, these important and vital points for you are at the heart of my concerns.",
+            "why": "Why a developer?",
+            "whyP1": "Our job is not only to imagine and create beautiful web concepts that suit you, it is also to ensure that your online product is as effective and intuitive as possible.",
+            "whyP2": "Your product must suit you! Your product must differentiate you! This is where I come in",
+            "devStack": [
+                {
+                    "html": "HTML5",
+                    "javascript": "Javascript",
+                    "react": "React",
+                    "typescript": "TypeScript",
+                    "git": "Git",
+                    "github": "Github",
+                    "redux": "Redux toolkit",
+                    "nodejs": "Node.Js",
+                    "express": "Express.js",
+                    "mongodb": "MongoDB",
+                    "esLint": "EsLint",
+                    "jest": "Jest",
+                    "css": "CSS3",
+                    "tailwind": "Tailwind",
+                    "sass": "Sass",
+                    "bootstrap": "Bootstrap",
+                    "figma": "Figma"
+                }
+            ],
+            "more": "Learn more about me",
+            "opportunities1": "I knew how to seize opportunities which allowed me to work on diverse and varied projects and to improve my mastery of different skills. I therefore created Conseils and Tech in order to be able to use my technical knowledge with independent and professional clients: JavaScript, React.js, Figma, CSS, Jest.",
+            "opportunities2": "Curious and eager to learn, I naturally trained in Node.js, Express and MongoDB in order to become Full Stack.",
+            "contact": [
+                {
+                    "howToContact": "You can reach me at :",
+                    "otherWay": "Or send me an email via the contact form below:",
+                    "lastName": "Last Name",
+                    "firstName": "First name",
+                    "Phone": "Phone",
+                    "Send": "Send",
+                    "sentConfirm": "The form has been successfully submitted.",
+                    "contactButton": "Contact"
+                }
+            ]
+        }
+    ]
+}

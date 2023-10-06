@@ -1,0 +1,168 @@
+{
+    "PROJECT_LIST": [
+        {
+            "projectCardText": "Projets",
+            "whichTech": "Technologies utilisées pour ce projet",
+            "moreAboutCompany": "En savoir plus sur l'entreprise",
+            "ProjectDetails": [
+                {
+                    "id": 1,
+                    "project": "Camille Sulpice thérapie brève",
+                    "description": "Développement d’un site internet pour une activité de thérapie, selon une maquette fournie",
+                    "more": "La thérapie brève stratégique et systémique est une thérapie dynamique et participative, vous n’êtes pas passif mais actif dans le travail thérapeutique et dans le changement.",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "git",
+                        "css",
+                        "sass",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "https://camille-sulpice.fr/",
+                    "logo": "./assets/images/logo_CS.png",
+                    "github": "https://github.com/Belin27000/camille_sulpice_tb.git"
+                },
+                {
+                    "id": 2,
+                    "project": "Attribut Conseils - Bilan de compétences",
+                    "description": "Refonte d’un site internet pour un cabinet de gestion de carrière intervenant sur des bilans de compétences, VAE et outplacement.",
+                    "more": "Cabinet de gestion de carrières positionné sur le marché depuis plus de 15 ans",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "css",
+                        "sass",
+                        "git",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/logo_Attribut.png",
+                    "github": "https://github.com/Belin27000/attribut_conseil.git"
+                },
+                {
+                    "id": 3,
+                    "project": "RemedeAgency",
+                    "description": "Mise en place de Redux pour la gestion des modifications du nom d'utilisateur",
+                    "more": "Projet de formation",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "github",
+                        "redux",
+                        "mongodb",
+                        "git",
+                        "sass"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/argentBankLogo.png",
+                    "github": "https://github.com/Belin27000/bank_remedeAgency.git"
+                },
+                {
+                    "id": 4,
+                    "project": "Portfolio - Conseil & Tech",
+                    "description": "Création du portfolio de conseil and tech",
+                    "more": "Ce portfolio a pour but d'apporter une vision sur les rendus possible en utilisant les technologies actuelles",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "tailwind",
+                        "typescript",
+                        "git",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "https://conseilsandtechs.com/",
+                    "logo": "./assets/images/logo_Yann.png",
+                    "github": "https://github.com/Belin27000/myPorfolio.git"
+                },
+                {
+                    "id": 5,
+                    "project": "goFullStack",
+                    "description": "Projet de formation full stack. Ce projet permet de mettre en pratique et valider les compétences au dos de cette carte. ",
+                    "more": "Le repository en lien montre la création d'un server web avec le framework Express, la création d'une API REST avec Node, Express et MongoDB ainsi que la mise en place d'un système d'authentification et la gestion des fichiers utilisateur sur un application Express.",
+                    "stack": [
+                        "nodejs",
+                        "express",
+                        "mongodb",
+                        "git",
+                        "github"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/logo_Yann.png",
+                    "github": "https://github.com/Belin27000/goToFullStack"
+                },
+                {
+                    "id": 6,
+                    "project": "Mon voisin PRO",
+                    "description": "Création d’un site internet pour une association d’insertion professionnelle, permettant la visibilité et la mise en relation des auto-entrepreneurs et TPE avec les particuliers. ",
+                    "more": "MON VOISIN PRO est un site dédié à la mise en relation de clients avec les auto-entrepreneurs et les TPE au niveau local.L'objectif est d'aider ces professionnels à obtenir de nouveaux clients et à développer leurs activités, tout en offrant aux clients une visibilité sur les services proposés dans leur environnement proche en les encourageant à consommer localement.",
+                    "stack": [
+                        "javascript",
+                        "react",
+                        "tailwind",
+                        "git",
+                        "github",
+                        "nodejs",
+                        "express",
+                        "mongodb",
+                        "typescript"
+                    ],
+                    "year": 2023,
+                    "website": "",
+                    "logo": "./assets/images/PRO.png",
+                    "github": "https://github.com/Belin27000?tab=repositories"
+                }
+            ]
+        }
+    ],
+    "DEV": [
+        {
+            "aboutMe": "Développeur front-end de formation, full stack par passion !",
+            "aboutMeP1": "Réaliser un site web ou une application est simple, les réaliser de manière optimisé, performant et orienté expérience utilisateur demande une analyse et un travail plus approfondi.",
+            "aboutMeP2": "En tant que développeur consciencieux et appliqué, ces points importants et vitaux pour vous sont au cœur de mes préoccupations.",
+            "why": "Pourquoi un développeur ?",
+            "whyP1": "Notre métier n'est pas uniquement d’imaginer et de créer de jolis concepts web qui vous ressemblent, c’est aussi de faire en sorte que votre produit en ligne soit le plus efficace et le plus intuitif possible.",
+            "whyP2": "Votre produit doit vous convenir ! Votre produit doit vous différencier ! C’est en cela que j’interviens ",
+            "devStack": [
+                {
+                    "html": "HTML5",
+                    "javascript": "Javascript",
+                    "react": "React",
+                    "typescript": "TypeScript",
+                    "git": "Git",
+                    "github": "Github",
+                    "redux": "Redux toolkit",
+                    "nodejs": "Node.Js",
+                    "express": "Express.js",
+                    "mongodb": "MongoDB",
+                    "esLint": "EsLint",
+                    "jest": "Jest",
+                    "css": "CSS3",
+                    "tailwind": "Tailwind",
+                    "sass": "Sass",
+                    "bootstrap": "Bootstrap",
+                    "figma": "Figma"
+                }
+            ],
+            "more": "En savoir plus",
+            "opportunities1": "J’ai su saisir les opportunités ce qui m’a permis de pouvoir travailler sur des projets divers et variés et d’améliorer ma maîtrise des différentes compétences.  J’ai donc créé Conseils and Tech afin de pouvoir mettre à contribution mes connaissances techniques auprès de clients indépendants et professionnels : JavaScript, React.js, Figma, CSS, Jest.",
+            "opportunities2": "Curieux et désireux d’apprendre je me suis naturellement formé à Node.js, Express et MongoDB afin de pouvoir devenir Full Stack.",
+            "contact": [
+                {
+                    "howToContact": "Vous pouvez me contacter au :",
+                    "otherWay": "Ou bien m'envoyer un mail via le formulaire de contact ci-dessous : ",
+                    "lastName": "Nom",
+                    "firstName": "Prénom",
+                    "Phone": "Téléphone",
+                    "Send": "Envoyer",
+                    "sentConfirm": "Le formulaire a bien été envoyé",
+                    "contactButton": "Prendre contact"
+                }
+            ]
+        }
+    ]
+}

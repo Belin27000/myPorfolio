@@ -1,9 +1,23 @@
+import { useTranslation } from "react-i18next";
 
 import { SyntheticEvent, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 
 const ContactForm = () => {
+    const { t } = useTranslation();
+
+    const devStack = t('DEV');
+
+    const contact = devStack[0].contact[0].howToContact;
+    const otherWay = devStack[0].contact[0].otherWay;
+    const firstNameTrad = devStack[0].contact[0].firstName;
+    const lastNameTrad = devStack[0].contact[0].lastName;
+    const phoneTrad = devStack[0].contact[0].Phone;
+    const Sent = devStack[0].contact[0].Send;
+    const sentConfirm = devStack[0].contact[0].sentConfirm;
+
+
 
     interface EmailjsResult {
         text: string;
@@ -93,27 +107,27 @@ const ContactForm = () => {
     return (
         <div className=' bg-white mx-5 rounded-3xl drop-shadow-2xl'>
             <h2 className='contact-title my-5 text-2xl font-bold'>Contact</h2>
-            <p className="my-4" >Vous pouvez me contacter au :</p>
+            <p className="my-4" >{contact}</p>
             <a className='underline text-blueLink text-2xl font-bold' href='tel:0632138174'>06.32.13.81.74</a>
-            <p className="my-4">Ou bien m'envoyer un mail via le formulaire de contact ci-dessous : </p>
+            <p className="my-4">{otherWay}</p>
             <div className='form-container rounded-3xl '>
                 {!formValid ? (
                     <form ref={formRef} className=" shadow-inner rounded-b-3xl drop-shadow" onSubmit={(e) => handleSubmit(e)} id="contact-form">
                         <div className='flex w-full justify-between px-8 my-8 '>
                             <div className="w-1/2 text-start flex flex-col">
-                                <label htmlFor="lastName">Nom</label>
+                                <label htmlFor="lastName">{lastNameTrad}</label>
                                 <input className="border border-blueSite pl-1.5 rounded" name="lastName" type="text" id="lastName" />
                                 {lastNameValid && <div id="lastNameErrorMSg" className="text-xs">{lastNameValid}</div>}
                             </div>
                             <div className="w-1/2 flex flex-col">
-                                <label className='text-start ml-5' htmlFor="firstName">Prénom</label>
+                                <label className='text-start ml-5' htmlFor="firstName">{firstNameTrad}</label>
                                 <input className="border border-blueSite pl-1.5 rounded ml-5" name="firstName" type="text" id="firstName" />
                                 {firstNameValid && <div id="firstNameErrorMSg" className="ml-5 text-xs">{firstNameValid}</div>}
                             </div>
                         </div>
                         <div className='flex w-full justify-between px-8 my-8 '>
                             <div className="w-1/2 text-start flex flex-col">
-                                <label htmlFor="phone">Téléphone</label>
+                                <label htmlFor="phone">{phoneTrad}</label>
                                 <input className="pl-1.5 border border-blueSite rounded" name="phone" type="tel" id="phone" />
                                 {phoneValid && <div id="emailErrorMSg" className="text-xs">{phoneValid}</div>}
                             </div>
@@ -128,10 +142,10 @@ const ContactForm = () => {
                             <textarea className='border border-blueSite pl-1.5 h-28' id="Message" name="Message" />
                         </div>
 
-                        <button className="hover:text-white my-5 bg-blueSite px-16 py-0.5 rounded-xl">Envoyer</button>
+                        <button className="hover:text-white my-5 bg-blueSite px-16 py-0.5 rounded-xl">{Sent}</button>
                     </form>
                 ) : (<div className='mb-5'>
-                    <p>Le formulaire a bien été envoyé</p>
+                    <p>{sentConfirm}</p>
                 </div>
                 )}
             </div>

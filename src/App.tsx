@@ -9,11 +9,22 @@ import ScrollToTop from './components/ScrollButton/ScrollToTop';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
 
+import { useTranslation } from 'react-i18next'
+import { useEffect } from 'react';
 
 function App() {
+
+  const { i18n } = useTranslation();
+
+  useEffect(() => {
+    const lng = navigator.language;
+    i18n.changeLanguage(lng)
+  }, [])
+
+  const lng = navigator.language
+
   const devData = data.DEV
   const projectData = data.PROJECT_LIST
-  console.log(projectData);
 
 
   return (

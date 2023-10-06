@@ -1,4 +1,7 @@
 import { FaGlobe, FaGithub } from 'react-icons/fa'
+import { useTranslation } from "react-i18next";
+import { useEffect, useState } from 'react';
+
 type ProjectDetail = {
     id: number,
     project: string,
@@ -15,15 +18,65 @@ type ProjectProps = {
     projectData: ProjectDetail[];
 };
 const Project = ({ projectData }: ProjectProps) => {
+    const [loading, setLoading] = useState(true)
+    const [projectName, setProjectName] = useState('');
+    const [projects, setProjects] = useState([]);
+
+
+    const { t } = useTranslation();
+    // const projects = t('PROJECT_LIST.0', { returnObjects: true });
+
+    // const mainProjectTitle = projects.projectCardText
+    // const projectList = projects.ProjectDetails
+
+    // const projectName = projectList
+
+    // console.log('i180=>', projectName);
+    // console.log(projectData);
+
+    const fetchData = async () => {
+        try {
+            // Simuler un délai de chargement (peut être remplacé par une logique réelle)
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            const projects = t('PROJECT_LIST', { returnObjects: true });
+            const projectList = projects[0].ProjectDetails;
+            setProjectName(projectList);
+            setProjects(projects)
+            setLoading(false);
+        } catch (error) {
+            console.error("Une erreur s'est produite lors du chargement des données :", error);
+            setLoading(false);
+        }
+    };
+
+    useEffect(() => {
+        fetchData()
+
+    }, [])
+
+
+    if (loading) return (
+        <h3>Chargement des données en cours...</h3>
+    )
+
+    console.log(projects[0].whichTech);
+
+    const projectCardText = projects[0].projectCardText
+    const techUsed = projects[0].whichTech
+    const aboutCompany = projects[0].moreAboutCompany
+
+    console.log(aboutCompany);
+
 
 
     return (
         <section className="flex flex-wrap justify-center">
-            <h1 className='dark:text-white text-5xl my-5'>Les projets</h1>
+            <h1 className='dark:text-white text-5xl my-5'>{projectCardText}</h1>
             <div className='grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-5'>
 
                 {
-                    projectData.map((project, index) => {
+                    projectName.map((project, index) => {
                         const gotWebsite = project.website
 
                         return (
@@ -35,7 +88,7 @@ const Project = ({ projectData }: ProjectProps) => {
                                     </div>
                                     <div>
                                         <p className="text-xs m-5">{project.description}</p>
-                                        <p className="text-xs font-bold m-5">Technologies utilisées pour ce projet</p>
+                                        <p className="text-xs font-bold m-5">{techUsed}</p>
                                         <div className=" flex justify-center flex-wrap w-auto h-auto">
 
                                             {
@@ -50,7 +103,7 @@ const Project = ({ projectData }: ProjectProps) => {
                                     <div className="bg-white h-full w-full absolute rounded-3xl [transform:rotateY(180deg)] [backface-visibility:hidden] flex flex-col justify-evenly items-center">
                                         <h2 className="font-bold">{project.project}</h2>
 
-                                        <h3 className='font-bold text-xl' >En savoir plus sur l'entreprise</h3>
+                                        <h3 className='font-bold text-xl' >{aboutCompany}</h3>
                                         <p className='px-5 text-xs'>{project.more}</p>
                                         {gotWebsite ? (
                                             <a className="text-black flex justify-evenly items-center w-1/2 md:w-1/4 lg:w-1/2" href={project.website} rel="noreferrer" target="_blank"><FaGlobe />Site web</a>

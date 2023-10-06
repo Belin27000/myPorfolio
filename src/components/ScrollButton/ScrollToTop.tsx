@@ -24,7 +24,7 @@ const ScrollToTop = () => {
     return (
         <div >
             {showTopBtn && (
-                <FaArrowUp className='dark:bg-blueSite dark:text-black bg-black w-8 h-8 p-1 flex items-center justify-center text-white fixed bottom-10 cursor-pointer rounded-full m-1 p-2 right-5 ' onClick={goToTop} />
+                <FaArrowUp className='dark:bg-blueSite dark:text-black dark:hover:text-white hover:text-blueSite bg-black w-8 h-8 p-1 flex items-center justify-center text-white fixed bottom-10 cursor-pointer rounded-full m-1 p-2 right-5 ' onClick={goToTop} />
             )}
         </div>
     );

@@ -16,11 +16,12 @@ i18n
         debug: true,
         fallbackLng: 'en',
         detection: {
-            order: ['htmlTag', 'cookie', 'path', 'localStorage'],
+            order: ['navigator', 'cookie', 'path', 'localStorage'],
             // caches: ['cookie'],
         },
         backend: {
             loadPath: `./assets/locales/{{lng}}/data.json`,
+            keySeparator: false
 
         },
         returnObjects: true,

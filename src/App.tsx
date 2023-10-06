@@ -9,30 +9,30 @@ import ScrollToTop from './components/ScrollButton/ScrollToTop';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
 
-import { useTranslation } from 'react-i18next'
-import { useEffect } from 'react';
+// import { useTranslation } from 'react-i18next'
+// import { useEffect } from 'react';
 
 function App() {
 
-  const { i18n } = useTranslation();
+  // const { i18n } = useTranslation();
 
-  useEffect(() => {
-    const lng = navigator.language;
-    i18n.changeLanguage(lng)
-  }, [])
+  // useEffect(() => {
+  //   const lng = navigator.language;
+  //   i18n.changeLanguage(lng)
+  // }, [])
 
-  const lng = navigator.language
+  // const lng = navigator.language
 
   const devData = data.DEV
-  const projectData = data.PROJECT_LIST
+  // const projectData = data.PROJECT_LIST
 
 
   return (
     <>
       <div className=' bg-white dark:bg-black text-center flex flex-col h-full justify-between'>
         <Heading />
-        <About data={devData} />
-        <Project projectData={projectData} />
+        <About />
+        <Project />
         <AboutMe />
         <DevStack data={devData} />
         <ContactForm />

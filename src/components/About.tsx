@@ -1,32 +1,32 @@
 import { useTranslation } from "react-i18next";
 import Button from "./Button/Button";
 
-type DevStack = {
-    html: string,
-    javascript: string,
-    react: string,
-    typescript: string,
-    redux: string,
-    nodejs: string,
-    express: string,
-    mongodb: string,
-    esLint: string,
-    jest: string,
-    css: string,
-    tailwind: string,
-    sass: string,
-    bootstrap: string,
-    figma: string,
-};
+// type DevStack = {
+//     html: string,
+//     javascript: string,
+//     react: string,
+//     typescript: string,
+//     redux: string,
+//     nodejs: string,
+//     express: string,
+//     mongodb: string,
+//     esLint: string,
+//     jest: string,
+//     css: string,
+//     tailwind: string,
+//     sass: string,
+//     bootstrap: string,
+//     figma: string,
+// };
 
-type Dev = {
-    aboutMe: string;
-    devStack: DevStack[];
-};
-type AboutProps = {
-    data: Dev[];
-};
-const About = ({ data }: AboutProps) => {
+// type Dev = {
+//     aboutMe: string;
+//     devStack: DevStack[];
+// };
+// type AboutProps = {
+//     data: Dev[];
+// };
+const About = () => {
 
     const { t } = useTranslation();
 

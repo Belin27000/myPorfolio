@@ -14,13 +14,13 @@ i18n
     .use(HttpBackend)
     .init({
         debug: true,
-        fallbackLng: 'fr-FR',
+        fallbackLng: 'en',
         detection: {
             order: ['htmlTag', 'cookie', 'path', 'localStorage'],
             // caches: ['cookie'],
         },
         backend: {
-            loadPath: `src/assets/locales/{{lng}}/data.json`,
+            loadPath: `./assets/locales/{{lng}}/data.json`,
 
         },
         returnObjects: true,

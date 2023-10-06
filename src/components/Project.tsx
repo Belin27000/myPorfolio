@@ -14,13 +14,16 @@ type ProjectDetail = {
     logo?: string
 };
 
-type ProjectProps = {
-    projectData: ProjectDetail[];
-};
-const Project = ({ projectData }: ProjectProps) => {
+// type ProjectProps = {
+//     projectData: ProjectDetail[];
+// };
+const Project = () => {
     const [loading, setLoading] = useState(true)
-    const [projectName, setProjectName] = useState('');
-    const [projects, setProjects] = useState([]);
+    const [projectName, setProjectName] = useState([] as ProjectDetail[]);
+    // const [projects, setProjects] = useState([]);
+    const [projectCardText, setProjectCardText] = useState('')
+    const [techUsed, setTechUsed] = useState('')
+    const [aboutCompany, setAboutCompany] = useState('')
 
 
     const { t } = useTranslation();
@@ -41,8 +44,11 @@ const Project = ({ projectData }: ProjectProps) => {
 
             const projects = t('PROJECT_LIST', { returnObjects: true });
             const projectList = projects[0].ProjectDetails;
+            setProjectCardText(projects[0]?.projectCardText)
+            setTechUsed(projects[0]?.whichTech)
+            setAboutCompany(projects[0]?.moreAboutCompany)
             setProjectName(projectList);
-            setProjects(projects)
+            // setProjects(projects)
             setLoading(false);
         } catch (error) {
             console.error("Une erreur s'est produite lors du chargement des données :", error);
@@ -60,11 +66,11 @@ const Project = ({ projectData }: ProjectProps) => {
         <h3>Chargement des données en cours...</h3>
     )
 
-    console.log(projects[0].whichTech);
 
-    const projectCardText = projects[0].projectCardText
-    const techUsed = projects[0].whichTech
-    const aboutCompany = projects[0].moreAboutCompany
+    // const projectCardText = projects[0]?.projectCardText || '';
+
+    // const techUsed = projects[0]?.whichTech || '';
+    // const aboutCompany = projects[0]?.moreAboutCompany || '';
 
     console.log(aboutCompany);
 

@@ -10,12 +10,12 @@ import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
 // import { withNamespaces } from 'react-i18next'
 
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
 // import { useEffect } from 'react';
 
 function App() {
 
-  const { t } = useTranslation();
+  // // const { t } = useTranslation();
 
   // useEffect(() => {
   //   const lng = navigator.language;

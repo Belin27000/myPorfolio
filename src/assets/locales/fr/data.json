@@ -20,7 +20,7 @@
                     ],
                     "year": 2023,
                     "website": "https://camille-sulpice.fr/",
-                    "logo": "./assets/images/logo_CS.png",
+                    "logo": "/assets/images/logo_CS.png",
                     "github": "https://github.com/Belin27000/camille_sulpice_tb.git"
                 },
                 {
@@ -38,7 +38,7 @@
                     ],
                     "year": 2023,
                     "website": "",
-                    "logo": "./assets/images/logo_Attribut.png",
+                    "logo": "/assets/images/logo_Attribut.png",
                     "github": "https://github.com/Belin27000/attribut_conseil.git"
                 },
                 {
@@ -57,7 +57,7 @@
                     ],
                     "year": 2023,
                     "website": "",
-                    "logo": "./assets/images/argentBankLogo.png",
+                    "logo": "/assets/images/argentBankLogo.png",
                     "github": "https://github.com/Belin27000/bank_remedeAgency.git"
                 },
                 {
@@ -76,7 +76,7 @@
                     ],
                     "year": 2023,
                     "website": "https://conseilsandtechs.com/",
-                    "logo": "./assets/images/logo_Yann.png",
+                    "logo": "/assets/images/logo_Yann.png",
                     "github": "https://github.com/Belin27000/myPorfolio.git"
                 },
                 {
@@ -93,7 +93,7 @@
                     ],
                     "year": 2023,
                     "website": "",
-                    "logo": "./assets/images/logo_Yann.png",
+                    "logo": "/assets/images/logo_Yann.png",
                     "github": "https://github.com/Belin27000/goToFullStack"
                 },
                 {
@@ -114,7 +114,7 @@
                     ],
                     "year": 2023,
                     "website": "",
-                    "logo": "./assets/images/PRO.png",
+                    "logo": "/assets/images/PRO.png",
                     "github": "https://github.com/Belin27000?tab=repositories"
                 }
             ]

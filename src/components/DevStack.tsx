@@ -25,6 +25,17 @@ type Dev = {
 type StackProps = {
     data: Dev[];
 }
+const getImagePAth = (item: string) => {
+    console.log(item);
+
+    try {
+        require(`./assets/icons/${item}.png`)
+        return (`./assets/icons/${item}.png`)
+    } catch (error) {
+        return (`src/assets/icons/${item}.png`)
+    }
+}
+
 const DevStack = ({ data }: StackProps) => {
     const stacks = data[0].devStack[0]
 
@@ -37,12 +48,14 @@ const DevStack = ({ data }: StackProps) => {
 
                     {
                         Object.keys(stacks).map((stack, index) => {
+                            const imagePath = getImagePAth(stack)
+
                             return (
                                 <div key={index} className=" [perspective:1000px] group   justify-center  w-32 h-32  m-5 rounded-3xl">
                                     <div className=" relative transition-all duration-700 [transform-style:preserve-3d] rotateY(180deg) group-hover:[transform:rotateY(180deg)] text-black h-full w-full flex flex-col  items-center shadow-3xl justify-around  rounded-3xl" >
                                         <div className="" >
                                             <div className="rounded-3xl bg-white flex  justify-center">
-                                                <img width="100" height="100" src={`./assets/icons/${stack}.png`} alt={"logo projet " + `${stack}`} className="w-1/2 bg-white rounded object-contain " />
+                                                <img width="100" height="100" src={`${imagePath}`} alt={"logo projet " + `${stack}`} className="w-1/2 bg-white rounded object-contain " />
                                             </div>
                                         </div>
                                         <div className=" rounded-3xl bg-white h-full w-full absolute [transform:rotateY(180deg)] [backface-visibility:hidden] flex flex-col justify-evenly items-center">

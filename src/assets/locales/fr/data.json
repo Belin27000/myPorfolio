@@ -70,6 +70,7 @@
                         "react",
                         "tailwind",
                         "typescript",
+                        "i18next",
                         "git",
                         "github"
                     ],
@@ -135,6 +136,7 @@
                     "typescript": "TypeScript",
                     "git": "Git",
                     "github": "Github",
+                    "i18next": "i18next",
                     "redux": "Redux toolkit",
                     "nodejs": "Node.Js",
                     "express": "Express.js",

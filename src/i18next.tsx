@@ -3,6 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import HttpBackend from 'i18next-http-backend'
 
+
 i18n
     // detect user language
     // learn more: https://github.com/i18next/i18next-browser-languageDetector
@@ -13,14 +14,24 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .use(HttpBackend)
     .init({
-        debug: true,
+        // debug: true,
         fallbackLng: 'en',
         detection: {
             order: ['navigator', 'cookie', 'path', 'localStorage'],
-            // caches: ['cookie'],
+            //     // caches: ['cookie'],
         },
         backend: {
-            loadPath: `./assets/locales/{{lng}}/data.json`,
+            loadPath: (lng: string) => {
+                const path = `src/assets/locales/${lng}/data.json`
+                return fetch(path, { method: 'HEAD' })
+                    .then((response) => {
+                        if (response.status === 200) {
+                            return path
+                        }
+                        return `./assets/locales/${lng}/data.json`
+                    })
+
+            },
             keySeparator: false
 
         },

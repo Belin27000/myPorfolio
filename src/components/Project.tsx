@@ -1,6 +1,7 @@
 import { FaGlobe, FaGithub } from 'react-icons/fa'
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from 'react';
+import i18n from '../i18next';
 
 type ProjectDetail = {
     id: number,
@@ -14,9 +15,6 @@ type ProjectDetail = {
     logo?: string
 };
 
-// type ProjectProps = {
-//     projectData: ProjectDetail[];
-// };
 const Project = () => {
     const [loading, setLoading] = useState(true)
     const [projectName, setProjectName] = useState([] as ProjectDetail[]);
@@ -27,15 +25,6 @@ const Project = () => {
 
 
     const { t } = useTranslation();
-    // const projects = t('PROJECT_LIST.0', { returnObjects: true });
-
-    // const mainProjectTitle = projects.projectCardText
-    // const projectList = projects.ProjectDetails
-
-    // const projectName = projectList
-
-    // console.log('i180=>', projectName);
-    // console.log(projectData);
 
     const fetchData = async () => {
         try {
@@ -59,7 +48,7 @@ const Project = () => {
     useEffect(() => {
         fetchData()
 
-    }, [])
+    }, [i18n.language])
 
 
     if (loading) return (
@@ -67,10 +56,7 @@ const Project = () => {
     )
 
 
-    // const projectCardText = projects[0]?.projectCardText || '';
 
-    // const techUsed = projects[0]?.whichTech || '';
-    // const aboutCompany = projects[0]?.moreAboutCompany || '';
 
     console.log(aboutCompany);
 
@@ -130,3 +116,13 @@ const Project = () => {
 };
 
 export default Project;
+
+
+
+
+
+
+// const projectCardText = projects[0]?.projectCardText || '';
+
+// const techUsed = projects[0]?.whichTech || '';
+// const aboutCompany = projects[0]?.moreAboutCompany || '';

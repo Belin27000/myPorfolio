@@ -8,13 +8,14 @@ import DevStack from './components/DevStack';
 import ScrollToTop from './components/ScrollButton/ScrollToTop';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
+// import { withNamespaces } from 'react-i18next'
 
-// import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 // import { useEffect } from 'react';
 
 function App() {
 
-  // const { i18n } = useTranslation();
+  const { t } = useTranslation();
 
   // useEffect(() => {
   //   const lng = navigator.language;

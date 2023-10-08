@@ -56,16 +56,19 @@ const Project = () => {
         <h3>Chargement des données en cours...</h3>
     )
 
-    const getImagePAth = (item: string) => {
-        // console.log(item);
+    console.log(projectName[3].stack);
 
-        try {
-            require(`./assets/icons/${item}.png`)
-            return (`./assets/icons/${item}.png`)
-        } catch (error) {
-            return (`src/assets/icons/${item}.png`)
-        }
-    }
+
+    // const getImagePAth = (item: string) => {
+    //     console.log(item);
+
+    //     try {
+    //         require(`./assets/icons/${item}.png`)
+    //         return (`./assets/icons/${item}.png`)
+    //     } catch (error) {
+    //         return (`src/assets/icons/${item}.png`)
+    //     }
+    // }
 
 
     return (
@@ -82,7 +85,7 @@ const Project = () => {
                                 <article key={index} className="relative transition-all duration-700 [transform-style:preserve-3d] rotateY(180deg) group-hover:[transform:rotateY(180deg)] text-black h-full bg-white flex flex-col rounded-3xl items-center shadow-3xl justify-around" >
                                     <h2 className="m-5 font-bold">{project.project}</h2>
                                     <div className="w-full bg-white flex h-36 justify-center">
-                                        <img width="100" height="100" src={project.logo?.startsWith('./') ? project.logo : `src${project.logo}`} alt={"logo projet " + `${project}`} className="w-1/2 bg-white rounded object-contain " />
+                                        <img width="100" height="100" src={`.${project.logo}`} alt={"logo projet " + `${project}`} className="w-1/2 bg-white rounded object-contain " />
                                     </div>
                                     <div>
                                         <p className="text-xs m-5">{project.description}</p>
@@ -91,10 +94,10 @@ const Project = () => {
 
                                             {
                                                 project.stack.map((item, index) => {
-                                                    const imagePath = getImagePAth(item)
+                                                    // const imagePath = getImagePAth(item)
                                                     return (
                                                         <img width="100" height="100"
-                                                            src={imagePath}
+                                                            src={`./assets/icons/${item}.png`}
                                                             className="object-cover w-6 h-6 mx-2 mb-5 md:w-8 md:h-8" key={index} alt={`${item} icon`} />
                                                     )
                                                 })

@@ -20,7 +20,7 @@
                     ],
                     "year": 2023,
                     "website": "https://camille-sulpice.fr/",
-                    "logo": "src/assets/images/logo_CS.png",
+                    "logo": "/assets/images/logo_CS.png",
                     "github": "https://github.com/Belin27000/camille_sulpice_tb.git"
                 },
                 {

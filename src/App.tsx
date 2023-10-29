@@ -8,24 +8,19 @@ import DevStack from './components/DevStack';
 import ScrollToTop from './components/ScrollButton/ScrollToTop';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
-// import { withNamespaces } from 'react-i18next'
+import MyCv from './components/MyCv';
+import { pdfjs } from 'react-pdf';
+import Button from './components/Button/Button';
 
-// import { useTranslation } from 'react-i18next'
-// import { useEffect } from 'react';
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  'pdfjs-dist/build/pdf.worker.min.js',
+  import.meta.url,
+).toString();
 
 function App() {
 
-  // // const { t } = useTranslation();
-
-  // useEffect(() => {
-  //   const lng = navigator.language;
-  //   i18n.changeLanguage(lng)
-  // }, [])
-
-  // const lng = navigator.language
 
   const devData = data.DEV
-  // const projectData = data.PROJECT_LIST
 
 
   return (

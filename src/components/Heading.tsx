@@ -43,19 +43,11 @@ const Heading = () => {
                     Conseils<br />&<br />Techs
                 </p>
             </div>
-            <div>
-                <a href={'https://www.ligue-cancer.net/octobre-rose'} rel="noreferrer" target="_blank" aria-label="go to ligue contre le cancer">
-                    <img width="100" height="100" src={event} alt={"October Rose logo"} />
-                </a>
-            </div>
+
             <div className=" object-contain flex w-1/3 justify-center">
                 <img width="100" height="100" src={logoYann} alt={"logo conseil and tech"} className="invert-0 dark:invert  w-1/2 bg-white rounded " />
             </div>
-            <div>
-                <a href={'https://www.ligue-cancer.net/octobre-rose'} rel="noreferrer" target="_blank" aria-label="go to ligue contre le cancer">
-                    <img width="100" height="100" src={event} alt={"October Rose logo"} />
-                </a>
-            </div>
+
             <div className="w-1/3 flex flex-col h-48 justify-evenly items-center">
                 <LngSelection />
                 <button className='h-8 w-8 bg-black dark:bg-sky-500 dark:text-black px-2 rounded-3xl' onClick={handleThemeSwitch} aria-label="dark mode">

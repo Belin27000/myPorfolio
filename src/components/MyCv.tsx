@@ -9,6 +9,8 @@ const MyCv = () => {
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
+
+        window.open(PDF_FILE_URL, '_blank')
     }
 
     return (

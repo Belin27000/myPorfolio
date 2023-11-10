@@ -8,9 +8,8 @@ import DevStack from './components/DevStack';
 import ScrollToTop from './components/ScrollButton/ScrollToTop';
 import AboutMe from './components/AboutMe';
 import ContactForm from './components/ContactForm';
-import MyCv from './components/MyCv';
 import { pdfjs } from 'react-pdf';
-import Button from './components/Button/Button';
+import ContactButton from './components/ContactButton';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   'pdfjs-dist/build/pdf.worker.min.js',
@@ -27,6 +26,7 @@ function App() {
     <>
       <div className=' bg-white dark:bg-black text-center flex flex-col h-full justify-between'>
         <Heading />
+        <ContactButton />
         <About />
         <Project />
         <AboutMe />

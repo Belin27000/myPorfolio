@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { BsSunFill, BsFillMoonFill } from "react-icons/bs"
 import logoYann from '../assets/images/Logo_Yann.png'
-import eventWhite from '../assets/images/Event/octoberRose.png'
-import eventBlack from '../assets/images/Event/octoberRoseBlack.png'
 import LngSelection from "./Button/LngSelection";
 
 
@@ -27,7 +25,6 @@ const Heading = () => {
         }
     }, [theme])
 
-    const event = theme === "dark" ? eventBlack : eventWhite;
 
     const handleThemeSwitch = () => {
         setIsToggled(!isToggled);

@@ -56,7 +56,7 @@ const Project = () => {
         <h3>Chargement des données en cours...</h3>
     )
 
-    console.log(projectName[3].stack);
+    console.log(projectName);
 
 
     // const getImagePAth = (item: string) => {
